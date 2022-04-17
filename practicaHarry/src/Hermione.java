@@ -56,4 +56,15 @@ public class Hermione {
         this.patronus = patronus;
     }
 
+    @Override
+    public String toString() {
+        return "Hermione{" +
+                "casa='" + casa + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", genero=" + genero +
+                ", boggart='" + boggart + '\'' +
+                ", patronus='" + patronus + '\'' +
+                '}';
+    }
+
 }
