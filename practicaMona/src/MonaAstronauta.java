@@ -1,2 +1,2 @@
-public class MonaAstronauta {
+public class MonaAstronauta extends Mona{
 }
