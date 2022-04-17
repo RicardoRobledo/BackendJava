@@ -58,7 +58,7 @@ public class Draco {
 
     @Override
     public String toString() {
-        return "Harry{" +
+        return "Draco{" +
                 "casa='" + casa + '\'' +
                 ", nombre='" + nombre + '\'' +
                 ", genero=" + genero +

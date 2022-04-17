@@ -56,4 +56,15 @@ public class Neville {
         this.patronus = patronus;
     }
 
+    @Override
+    public String toString() {
+        return "Neville{" +
+                "casa='" + casa + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", genero=" + genero +
+                ", boggart='" + boggart + '\'' +
+                ", patronus='" + patronus + '\'' +
+                '}';
+    }
+
 }
