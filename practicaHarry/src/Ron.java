@@ -56,4 +56,15 @@ public class Ron {
         this.patronus = patronus;
     }
 
+    @Override
+    public String toString() {
+        return "Ron{" +
+                "casa='" + casa + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", genero=" + genero +
+                ", boggart='" + boggart + '\'' +
+                ", patronus='" + patronus + '\'' +
+                '}';
+    }
+
 }
