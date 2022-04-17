@@ -12,13 +12,15 @@ public class Prueba {
         Mona mb = new MonaBajista();
         Mona mj = new MonaJetpack();
         Mona ml = new MonaLuchadora();
-        Mona mp = new MonaProgramadora();
+        Mona mp = new MonaMecanica();
+        Mona mpr = new MonaProgramadora();
 
         ma.mainActivity();
         mb.mainActivity();
         mj.mainActivity();
         ml.mainActivity();
         mp.mainActivity();
+        mpr.mainActivity();
 
     }
 
