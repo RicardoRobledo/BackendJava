@@ -14,5 +14,4 @@ public class MonaJetpack extends Mona{
         System.out.println("Mona jetpack likes to fly");
     }
 
-
 }
