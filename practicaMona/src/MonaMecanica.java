@@ -11,7 +11,7 @@ public class MonaMecanica extends Mona{
      * */
     @Override
     public void mainActivity() {
-        System.out.println("Mona mecanica likes to fight");
+        System.out.println("Mona mecanica likes to fix vehicles");
     }
 
 }
