@@ -1,2 +1,2 @@
-public class MonaLuchadora {
+public class MonaLuchadora extends Mona{
 }
