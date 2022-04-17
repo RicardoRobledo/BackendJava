@@ -8,5 +8,13 @@ public class Harry {
     private String boggart;
     private String patronus;
 
+    public Harry() {
+        this.casa = "Gryffindor";
+        this.nombre = "Harry";
+        this.genero = 'M';
+        this.boggart = "Dementor";
+        this.patronus = "ciervo";
+    }
+
     
 }
