@@ -4,7 +4,7 @@
  * @author: Ricardo
  */
 
-public class Marco {
+public class Marco{
 
     private String text;
 
