@@ -8,6 +8,11 @@ public class Spiderman {
 
     private char genero;
 
+    /**
+     * Constructor for the genre of the character
+     *
+     * @param: genero Tell us the genre of the character
+     * */
     public Spiderman(char genero) {
         this.genero = genero;
     }
