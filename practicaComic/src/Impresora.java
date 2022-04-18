@@ -30,6 +30,12 @@ public class Impresora extends Thread implements ControladorMarco{
 
     }
 
+    /**
+     * This method execute the drawing of the page
+     */
+    @Override
+    public void run() {
 
+    }
 
 }
