@@ -14,7 +14,7 @@ public class Impresora extends Thread implements ControladorMarco{
     @java.lang.Override
     public void dibujar(Marco marco) {
 
-
+        marco
 
     }
 

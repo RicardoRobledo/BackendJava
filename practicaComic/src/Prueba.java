@@ -13,13 +13,11 @@ public class Prueba {
         Screen screen = new Screen();
         screen.setSize(800, 500);
         screen.setExtendedState(screen.getExtendedState() | Screen.MAXIMIZED_BOTH);
-        Dialog dialog = new Dialog();
-        String str;
-
         screen.out("El remordimiento del musico\n", "Roboto", 40, Color.BLUE);
         screen.setVisible(true);
-
         screen.showImage("1.jpg");
+
+
 
     }
 
