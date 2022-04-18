@@ -5,4 +5,9 @@
  * */
 
 public class Spiderman {
+
+    private char genero;
+
+    
+
 }
