@@ -5,7 +5,7 @@
  * */
 
 
-public class Miles extends Spiderman{
+public class Miles extends Spiderman implements Ataque{
 
     private String nombre = "Miles";
 
@@ -17,5 +17,13 @@ public class Miles extends Spiderman{
      */
     public Miles(char genero) {
         super(genero);
+    }
+
+    /**
+     * Method that tell us the main attack of the character
+     */
+    @Override
+    public void ataquePrincipal() {
+        System.out.println("Ataque principal: Lanzar red gigantesca de telarania");
     }
 }

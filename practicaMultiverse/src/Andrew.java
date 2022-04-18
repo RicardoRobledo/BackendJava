@@ -24,6 +24,6 @@ public class Andrew extends Spiderman implements Ataque{
      */
     @Override
     public void ataquePrincipal() {
-        System.out.println("Ata que principal: Golpear muy fuerte");
+        System.out.println("Ataque principal: Golpear muy fuerte");
     }
 }
