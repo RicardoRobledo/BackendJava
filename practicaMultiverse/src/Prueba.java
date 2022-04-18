@@ -8,8 +8,8 @@ public class Prueba {
 
     public static void main(String[] args) {
 
-        Andrew andrew = new Andrew('F');
-        Gwen gwen = new Gwen('M');
+        Andrew andrew = new Andrew('M');
+        Gwen gwen = new Gwen('F');
         Miles miles = new Miles('M');
 
         System.out.println(andrew);

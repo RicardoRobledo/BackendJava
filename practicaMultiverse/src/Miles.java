@@ -23,14 +23,15 @@ public class Miles extends Spiderman implements Ataque{
      * Method that tell us the main attack of the character
      */
     @Override
-    public void ataquePrincipal() {
-        System.out.println("Ataque principal: Lanzar red gigantesca de telarania");
+    public String ataquePrincipal() {
+        return "Ataque principal: Lanzar red gigantesca de telarania";
     }
 
     @Override
     public String toString() {
         return "Miles{" +
                 "nombre='" + nombre + '\'' +
+                "genero='" + this.getGenero() + '\'' +
                 '}';
     }
 }

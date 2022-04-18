@@ -1,5 +1,5 @@
 public interface Ataque {
 
-    public void ataquePrincipal();
+    public String ataquePrincipal();
 
 }
