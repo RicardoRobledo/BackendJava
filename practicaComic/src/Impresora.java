@@ -9,6 +9,7 @@ import java.awt.*;
 public class Impresora extends Thread implements ControladorMarco{
 
     Screen screen;
+    Marco marco;
 
     public Impresora(){
         screen = new Screen();
@@ -19,11 +20,9 @@ public class Impresora extends Thread implements ControladorMarco{
 
     /**
      * This method draw the frame in the page
-     *
-     * @param marco
      */
     @java.lang.Override
-    public void dibujar(Marco marco) {
+    public void dibujar() {
 
         screen.showImage(marco.getImage());
         screen.out(marco.getText());
@@ -35,7 +34,7 @@ public class Impresora extends Thread implements ControladorMarco{
      */
     @Override
     public void run() {
-
+        dibujar();
     }
 
 }

@@ -5,6 +5,6 @@
  */
 public interface ControladorMarco {
 
-    public void dibujar(Marco marco);
+    public void dibujar();
 
 }
