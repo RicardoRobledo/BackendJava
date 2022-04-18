@@ -6,12 +6,12 @@ import java.awt.*;
  * @author: Ricardo
  */
 
-public class Impresora extends Thread implements ControladorMarco{
+public class Dibujo extends Thread implements ControladorMarco{
 
     Screen screen;
     Marco marco;
 
-    public Impresora(){
+    public Dibujo(){
         screen = new Screen();
         screen.setExtendedState(screen.getExtendedState() | Screen.MAXIMIZED_BOTH);
         screen.out("El remordimiento del musico\n", "Roboto", 40, Color.BLUE);
@@ -51,6 +51,11 @@ public class Impresora extends Thread implements ControladorMarco{
     @Override
     public void run() {
         dibujar();
+        try {
+            join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 }
