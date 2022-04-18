@@ -32,6 +32,7 @@ public class Miles extends Spiderman implements Ataque{
         return "Miles{" +
                 "nombre='" + nombre + '\'' +
                 "genero='" + this.getGenero() + '\'' +
+                "ataque principal='" + ataquePrincipal() + ", " +
                 '}';
     }
 }

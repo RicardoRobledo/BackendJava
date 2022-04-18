@@ -31,6 +31,7 @@ public class Gwen extends Spiderman implements Ataque{
         return "Gwen{" +
                 "nombre='" + nombre + '\'' +
                 "genero='" + this.getGenero() + '\'' +
+                "ataque principal='" + ataquePrincipal() + ", " +
                 '}';
     }
 }

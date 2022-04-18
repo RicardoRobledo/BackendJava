@@ -32,6 +32,7 @@ public class Andrew extends Spiderman implements Ataque{
         return "Andrew{" +
                 "nombre='" + nombre + ", " +
                 "genero='" + this.getGenero() + ", " +
+                "ataque principal='" + ataquePrincipal() + ", " +
                 '}';
     }
 }
