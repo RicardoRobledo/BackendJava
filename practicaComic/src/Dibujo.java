@@ -11,11 +11,8 @@ public class Dibujo extends Thread implements ControladorMarco{
     Screen screen;
     Marco marco;
 
-    public Dibujo(){
-        screen = new Screen();
-        screen.setExtendedState(screen.getExtendedState() | Screen.MAXIMIZED_BOTH);
-        screen.out("El remordimiento del musico\n", "Roboto", 40, Color.BLUE);
-        screen.setVisible(true);
+    public Dibujo(Screen screen){
+        this.screen = screen;
     }
 
     public Screen getScreen() {
@@ -41,7 +38,10 @@ public class Dibujo extends Thread implements ControladorMarco{
     public void dibujar() {
 
         screen.showImage(marco.getImage());
+        screen.out("\n");
         screen.out(marco.getText());
+        screen.out("\n");
+        screen.out("\n");
 
     }
 
