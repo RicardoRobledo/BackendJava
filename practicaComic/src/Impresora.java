@@ -18,6 +18,22 @@ public class Impresora extends Thread implements ControladorMarco{
         screen.setVisible(true);
     }
 
+    public Screen getScreen() {
+        return screen;
+    }
+
+    public void setScreen(Screen screen) {
+        this.screen = screen;
+    }
+
+    public Marco getMarco() {
+        return marco;
+    }
+
+    public void setMarco(Marco marco) {
+        this.marco = marco;
+    }
+
     /**
      * This method draw the frame in the page
      */
