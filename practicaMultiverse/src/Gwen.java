@@ -25,4 +25,11 @@ public class Gwen extends Spiderman implements Ataque{
     public void ataquePrincipal() {
         System.out.println("Ataque principal: Patear muy fuerte");
     }
+
+    @Override
+    public String toString() {
+        return "Gwen{" +
+                "nombre='" + nombre + '\'' +
+                '}';
+    }
 }

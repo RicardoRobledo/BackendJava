@@ -26,4 +26,11 @@ public class Miles extends Spiderman implements Ataque{
     public void ataquePrincipal() {
         System.out.println("Ataque principal: Lanzar red gigantesca de telarania");
     }
+
+    @Override
+    public String toString() {
+        return "Miles{" +
+                "nombre='" + nombre + '\'' +
+                '}';
+    }
 }

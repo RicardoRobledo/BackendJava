@@ -26,4 +26,11 @@ public class Andrew extends Spiderman implements Ataque{
     public void ataquePrincipal() {
         System.out.println("Ataque principal: Golpear muy fuerte");
     }
+
+    @Override
+    public String toString() {
+        return "Andrew{" +
+                "nombre='" + nombre + '\'' +
+                '}';
+    }
 }
