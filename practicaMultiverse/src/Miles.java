@@ -7,6 +7,8 @@
 
 public class Miles extends Spiderman{
 
+    private String nombre = "Miles";
+
     /**
      * Constructor for the genre of the character
      *
