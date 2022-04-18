@@ -4,5 +4,11 @@
  * @author: Ricardo
  */
 
-public class Impresora{
+public class Impresora implements ControladorMarco{
+
+    
+    @java.lang.Override
+    public void dibujar() {
+
+    }
 }
