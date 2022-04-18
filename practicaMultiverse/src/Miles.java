@@ -1,2 +1,19 @@
-public class Miles {
+/**
+ * This class define the base entity Miles
+ *
+ * @author: Ricardo
+ * */
+
+
+public class Miles extends Spiderman{
+
+    /**
+     * Constructor for the genre of the character
+     *
+     * @param genero
+     * @param: genero Tell us the genre of the character
+     */
+    public Miles(char genero) {
+        super(genero);
+    }
 }
