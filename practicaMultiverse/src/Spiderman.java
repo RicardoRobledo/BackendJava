@@ -16,4 +16,12 @@ public class Spiderman {
     public Spiderman(char genero) {
         this.genero = genero;
     }
+
+    public char getGenero() {
+        return genero;
+    }
+
+    public void setGenero(char genero) {
+        this.genero = genero;
+    }
 }
