@@ -4,7 +4,7 @@
  * @author: Ricardo
  * */
 
-public class Gwen extends Spiderman{
+public class Gwen extends Spiderman implements Ataque{
 
     private String nombre = "Gwen";
 
@@ -18,5 +18,11 @@ public class Gwen extends Spiderman{
         super(genero);
     }
 
-
+    /**
+     * Method that tell us the main attack of the character
+     */
+    @Override
+    public void ataquePrincipal() {
+        System.out.println("Ataque principal: Patear muy fuerte");
+    }
 }
