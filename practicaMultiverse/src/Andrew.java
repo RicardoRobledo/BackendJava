@@ -5,7 +5,7 @@
  * */
 
 
-public class Andrew extends Spiderman{
+public class Andrew extends Spiderman implements Ataque{
 
     private String nombre = "Gwen";
 
@@ -17,5 +17,13 @@ public class Andrew extends Spiderman{
      */
     public Andrew(char genero) {
         super(genero);
+    }
+
+    /**
+     * Method that tell us the main attack of the character
+     */
+    @Override
+    public void ataquePrincipal() {
+        System.out.println("Ata que principal: Golpear muy fuerte");
     }
 }
