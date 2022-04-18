@@ -7,6 +7,8 @@
 
 public class Andrew extends Spiderman{
 
+    private String nombre = "Gwen";
+
     /**
      * Constructor for the genre of the character
      *
