@@ -24,15 +24,15 @@ public class Andrew extends Spiderman implements Ataque{
      */
     @Override
     public String ataquePrincipal() {
-        return "Ataque principal: Golpear muy fuerte";
+        return "Golpear muy fuerte";
     }
 
     @Override
     public String toString() {
         return "Andrew{" +
-                "nombre='" + nombre + ", " +
-                "genero='" + this.getGenero() + ", " +
-                "ataque principal='" + ataquePrincipal() + ", " +
+                "nombre='" + nombre + "', " +
+                "genero='" + this.getGenero() + "', " +
+                "ataque principal='" + ataquePrincipal() + "', " +
                 '}';
     }
 }

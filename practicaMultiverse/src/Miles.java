@@ -24,15 +24,15 @@ public class Miles extends Spiderman implements Ataque{
      */
     @Override
     public String ataquePrincipal() {
-        return "Ataque principal: Lanzar red gigantesca de telarania";
+        return "Lanzar red gigantesca de telarania";
     }
 
     @Override
     public String toString() {
         return "Miles{" +
-                "nombre='" + nombre + '\'' +
-                "genero='" + this.getGenero() + '\'' +
-                "ataque principal='" + ataquePrincipal() + ", " +
+                "nombre='" + nombre + "', " +
+                "genero='" + this.getGenero() + "', " +
+                "ataque principal='" + ataquePrincipal() + "', " +
                 '}';
     }
 }
