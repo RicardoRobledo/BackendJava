@@ -8,6 +8,7 @@ public class Spiderman {
 
     private char genero;
 
-    
-
+    public Spiderman(char genero) {
+        this.genero = genero;
+    }
 }
