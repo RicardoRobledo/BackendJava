@@ -7,13 +7,15 @@
 public class Marco{
 
     private String text;
+    private String image;
 
     /**
      * This constructor receive the text of the frame of the comic
      *
      * @param text
      */
-    public Marco(String text){
+    public Marco(String text, String image){
+        this.image = image;
         this.text = text;
     }
 

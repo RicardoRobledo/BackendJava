@@ -1,3 +1,5 @@
+import java.awt.*;
+
 /**
  * This class is for our tests
  *
@@ -9,19 +11,15 @@ public class Prueba {
     public static void main(String[] args) {
 
         Screen screen = new Screen();
+        screen.setSize(800, 500);
+        screen.setExtendedState(screen.getExtendedState() | Screen.MAXIMIZED_BOTH);
         Dialog dialog = new Dialog();
         String str;
 
-        screen.out("Bienvenidos a la mision Backend Java");
+        screen.out("El remordimiento del musico\n", "Roboto", 40, Color.BLUE);
         screen.setVisible(true);
 
-        str = dialog.readString("¿Quieres aprender a hacer esto?");
-
-        if(str.charAt(0)=='S'||str.charAt(0)=='s'){
-            screen.out("Hola");
-        }else{
-
-        }
+        screen.showImage("1.jpg");
 
     }
 

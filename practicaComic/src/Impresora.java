@@ -4,11 +4,20 @@
  * @author: Ricardo
  */
 
-public class Impresora implements ControladorMarco{
+public class Impresora extends Thread implements ControladorMarco{
 
-
+    /**
+     * This method draw the frame in the page
+     *
+     * @param marco
+     */
     @java.lang.Override
     public void dibujar(Marco marco) {
 
+
+
     }
+
+
+
 }
