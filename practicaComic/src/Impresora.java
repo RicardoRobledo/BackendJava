@@ -6,9 +6,9 @@
 
 public class Impresora implements ControladorMarco{
 
-    
+
     @java.lang.Override
-    public void dibujar() {
+    public void dibujar(Marco marco) {
 
     }
 }
