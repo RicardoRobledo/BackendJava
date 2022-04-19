@@ -6,7 +6,6 @@
 
 public class Artista {
 
-    private String nombre;
     private String rol;
 
     /**
@@ -16,7 +15,7 @@ public class Artista {
      * @param rol Define the role of the artist
      */
     public Artista(String nombre, String rol){
-        this.nombre = nombre;
+        
         this.rol = rol;
     }
 
