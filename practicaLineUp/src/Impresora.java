@@ -5,7 +5,22 @@
  * */
 
 public class Impresora implements controladorImpresora{
-    
+
+    private Panfleto panfleto;
+
+    public Panfleto getPanfleto() {
+        return panfleto;
+    }
+
+    public void setPanfleto(Panfleto panfleto) {
+        this.panfleto = panfleto;
+    }
+
+    /**
+     * This methow will draw our announcement
+     *
+     * @author: Ricardo
+     */
     @Override
     public void dibujar() {
 
