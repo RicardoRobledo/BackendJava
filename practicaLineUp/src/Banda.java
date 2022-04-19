@@ -40,6 +40,14 @@ public class Banda {
         this.nombreBanda = nombreBanda;
     }
 
+    public String getImagen() {
+        return imagen;
+    }
+
+    public void setImagen(String imagen) {
+        this.imagen = imagen;
+    }
+
     @Override
     public String toString() {
         return "Banda{" +
