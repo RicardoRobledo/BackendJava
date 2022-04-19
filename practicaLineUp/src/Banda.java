@@ -9,6 +9,7 @@ import java.util.ArrayList;
 public class Banda {
     
     private String nombreBanda;
+    private String imagen;
     private ArrayList<Artista> integrantesBanda;
 
     /**
@@ -17,8 +18,9 @@ public class Banda {
      * @param integrantesBanda Contains the members of the band
      * @param nombreBanda Contains the name of the band
      */
-    public Banda(ArrayList<Artista> integrantesBanda, String nombreBanda){
+    public Banda(ArrayList<Artista> integrantesBanda, String nombreBanda, String imagen){
         this.nombreBanda = nombreBanda;
+        this.imagen = imagen;
         this.integrantesBanda = integrantesBanda;
     }
 

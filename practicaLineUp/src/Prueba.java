@@ -29,7 +29,7 @@ public class Prueba {
         integrantesBanda.add(juan);
         integrantesBanda.add(sergio);
 
-        Banda banda = new Banda(integrantesBanda, "Mana");
+        Banda banda = new Banda(integrantesBanda, "Mana", "mana.jpg");
 
         // -----------------Zoe-----------------
 
@@ -50,7 +50,7 @@ public class Prueba {
         integrantesBanda2.add(angel);
         integrantesBanda2.add(alberto);
 
-        Banda banda2 = new Banda(integrantesBanda2, "Zoe");
+        Banda banda2 = new Banda(integrantesBanda2, "Zoe", "zoe.jpg");
 
         // -----------------Caifanes-----------------
 
@@ -73,7 +73,7 @@ public class Prueba {
         integrantesBanda3.add(juanC);
         integrantesBanda3.add(santiago);
 
-        Banda banda3 = new Banda(integrantesBanda3, "Caifanes");
+        Banda banda3 = new Banda(integrantesBanda3, "Caifanes", "caifanes.jpg");
 
         // --------------------Layout---------------------
 
