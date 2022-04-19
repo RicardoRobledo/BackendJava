@@ -5,4 +5,7 @@
  * */
 
 public interface controladorImpresora {
+
+    public void dibujar();
+
 }
