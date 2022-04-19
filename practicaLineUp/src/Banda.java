@@ -9,7 +9,6 @@ import java.util.ArrayList;
 public class Banda {
     
     private String nombreBanda;
-    private String imagen;
     private ArrayList<Artista> integrantesBanda;
 
     /**
@@ -20,7 +19,6 @@ public class Banda {
      */
     public Banda(ArrayList<Artista> integrantesBanda, String nombreBanda, String imagen){
         this.nombreBanda = nombreBanda;
-        this.imagen = imagen;
         this.integrantesBanda = integrantesBanda;
     }
 
@@ -38,14 +36,6 @@ public class Banda {
 
     public void setNombreBanda(String nombreBanda) {
         this.nombreBanda = nombreBanda;
-    }
-
-    public String getImagen() {
-        return imagen;
-    }
-
-    public void setImagen(String imagen) {
-        this.imagen = imagen;
     }
 
     @Override

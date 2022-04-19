@@ -98,7 +98,6 @@ public class Prueba {
             prepararArea(executorService, impresora, (byte)2);
             prepararArea(executorService, impresora, (byte)3);
 
-
         }catch (InterruptedException e) {
             e.printStackTrace();
         }
