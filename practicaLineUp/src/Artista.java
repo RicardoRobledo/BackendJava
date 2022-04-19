@@ -4,7 +4,7 @@
  * @author: Ricardo
  */
 
-public class Artista {
+public class Artista extends Persona{
 
     private String rol;
 
@@ -15,6 +15,7 @@ public class Artista {
      * @param rol Define the role of the artist
      */
     public Artista(String nombre, String rol){
+        super(nombre);
         this.rol = rol;
     }
 
