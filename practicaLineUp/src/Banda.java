@@ -29,4 +29,12 @@ public class Banda {
     public void setIntegrantesBanda(ArrayList<Artista> integrantesBanda) {
         this.integrantesBanda = integrantesBanda;
     }
+
+    @Override
+    public String toString() {
+        return "Banda{" +
+                "nombreBanda='" + nombreBanda + '\'' +
+                ", integrantesBanda=" + integrantesBanda +
+                '}';
+    }
 }

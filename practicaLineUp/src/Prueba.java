@@ -78,6 +78,7 @@ public class Prueba {
         layout.darFormato(banda3);
 
 
+
     }
 
 }
