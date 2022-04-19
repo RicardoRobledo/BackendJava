@@ -3,6 +3,8 @@ import java.util.ArrayList;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+import static java.lang.Thread.sleep;
+
 /**
  * This class is made up for our tests
  *
@@ -90,11 +92,24 @@ public class Prueba {
 
         ExecutorService executorService = Executors.newCachedThreadPool();
 
-        executorService.execute(impresora);
-        executorService.execute(impresora);
-        executorService.execute(impresora);
+        try{
 
-        executorService.shutdown();
+            prepararArea(executorService, impresora, (byte)1);
+            prepararArea(executorService, impresora, (byte)2);
+            prepararArea(executorService, impresora, (byte)3);
+
+
+        }catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public static void prepararArea(ExecutorService executorService, Impresora impresora, byte opcion) throws InterruptedException {
+
+        impresora.setOrden(opcion);
+        executorService.execute(impresora);
+        sleep(1000);
 
     }
 
