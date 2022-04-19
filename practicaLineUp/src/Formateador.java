@@ -8,6 +8,6 @@ import java.util.ArrayList;
 
 public interface Formateador {
 
-    public String darFormato(ArrayList<Banda> bandas);
+    public String darFormato(Banda banda);
 
 }
