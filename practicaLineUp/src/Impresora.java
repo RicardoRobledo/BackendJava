@@ -4,7 +4,7 @@
  * @author: Ricardo
  * */
 
-public class Impresora implements controladorImpresora{
+public class Impresora extends Thread implements controladorImpresora{
 
     private Panfleto panfleto;
 
@@ -24,5 +24,10 @@ public class Impresora implements controladorImpresora{
     @Override
     public void dibujar() {
 
+    }
+
+    @Override
+    public void run(){
+        
     }
 }
