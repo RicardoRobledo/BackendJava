@@ -1,3 +1,5 @@
+import java.awt.*;
+
 /**
  * This class describe the printer that will draw the announcement
  *
@@ -8,9 +10,13 @@ public class Impresora extends Thread implements ControladorImpresora {
 
     private Screen screen;
     private Panfleto panfleto;
+    private byte orden=0;
 
     public Impresora(Screen screen){
         this.screen = screen;
+        screen.setExtendedState(screen.getExtendedState() | Screen.MAXIMIZED_BOTH);
+        screen.out("Concierto 'Amantes del rock!!!!'", "Roboto", 40, Color.BLUE);
+        screen.setVisible(true);
     }
 
     public Panfleto getPanfleto() {
@@ -28,7 +34,7 @@ public class Impresora extends Thread implements ControladorImpresora {
      */
     @Override
     public void dibujar() {
-
+        screen.out("Hola");
     }
 
     @Override

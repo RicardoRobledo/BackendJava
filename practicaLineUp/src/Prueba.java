@@ -1,4 +1,7 @@
+import java.awt.*;
 import java.util.ArrayList;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 /**
  * This class is made up for our tests
@@ -74,12 +77,24 @@ public class Prueba {
 
         Layout layout = new Layout();
 
-        System.out.println(layout.darFormato(banda));
-        System.out.println(layout.darFormato(banda2));
-        System.out.println(layout.darFormato(banda3));
+        // --------------------Panfleto---------------------
+
+        Panfleto panfleto = new Panfleto(layout.darFormato(banda),
+                layout.darFormato(banda2),
+                layout.darFormato(banda3));
 
         // --------------------Impresora---------------------
 
+        Impresora impresora = new Impresora(new Screen());
+        impresora.setPanfleto(panfleto);
+
+        ExecutorService executorService = Executors.newCachedThreadPool();
+
+        executorService.execute(impresora);
+        executorService.execute(impresora);
+        executorService.execute(impresora);
+
+        executorService.shutdown();
 
     }
 
