@@ -19,6 +19,10 @@ public class Impresora extends Thread implements ControladorImpresora {
         screen.setVisible(true);
     }
 
+    public void setOrden(byte orden) {
+        this.orden = orden;
+    }
+
     public Panfleto getPanfleto() {
         return panfleto;
     }
