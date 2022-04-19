@@ -29,7 +29,7 @@ public class Prueba {
         integrantesBanda.add(juan);
         integrantesBanda.add(sergio);
 
-        Banda banda = new Banda(integrantesBanda, "Mana", "mana.jpg");
+        Banda banda = new Banda(integrantesBanda, "Mana");
 
         // -----------------Zoe-----------------
 
@@ -50,7 +50,7 @@ public class Prueba {
         integrantesBanda2.add(angel);
         integrantesBanda2.add(alberto);
 
-        Banda banda2 = new Banda(integrantesBanda2, "Zoe", "zoe.jpg");
+        Banda banda2 = new Banda(integrantesBanda2, "Zoe");
 
         // -----------------Caifanes-----------------
 
@@ -73,7 +73,7 @@ public class Prueba {
         integrantesBanda3.add(juanC);
         integrantesBanda3.add(santiago);
 
-        Banda banda3 = new Banda(integrantesBanda3, "Caifanes", "caifanes.jpg");
+        Banda banda3 = new Banda(integrantesBanda3, "Caifanes");
 
         // --------------------Layout---------------------
 
@@ -81,9 +81,13 @@ public class Prueba {
 
         // --------------------Panfleto---------------------
 
-        Panfleto panfleto = new Panfleto(layout.darFormato(banda),
+        String []contenidos = {layout.darFormato(banda),
                 layout.darFormato(banda2),
-                layout.darFormato(banda3));
+                layout.darFormato(banda3)};
+
+        String []imagenes = {"mana.jpg", "zoe.jpg", "caifanes.jpg"};
+
+        Panfleto panfleto = new Panfleto(contenidos, imagenes);
 
         // --------------------Impresora---------------------
 

@@ -17,7 +17,7 @@ public class Banda {
      * @param integrantesBanda Contains the members of the band
      * @param nombreBanda Contains the name of the band
      */
-    public Banda(ArrayList<Artista> integrantesBanda, String nombreBanda, String imagen){
+    public Banda(ArrayList<Artista> integrantesBanda, String nombreBanda){
         this.nombreBanda = nombreBanda;
         this.integrantesBanda = integrantesBanda;
     }
