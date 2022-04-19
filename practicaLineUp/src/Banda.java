@@ -15,6 +15,7 @@ public class Banda {
      * This constructor give us the members of the band
      *
      * @param integrantesBanda Contains the members of the band
+     * @param nombreBanda Contains the name of the band
      */
     public Banda(ArrayList<Artista> integrantesBanda, String nombreBanda){
         this.nombreBanda = nombreBanda;
