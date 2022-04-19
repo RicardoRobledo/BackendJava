@@ -1,5 +1,3 @@
-import java.awt.*;
-
 /**
  * This class describe the printer that will draw the announcement
  *
@@ -35,6 +33,6 @@ public class Impresora extends Thread implements controladorImpresora{
 
     @Override
     public void run(){
-
+        dibujar();
     }
 }
