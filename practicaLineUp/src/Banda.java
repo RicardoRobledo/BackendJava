@@ -7,7 +7,8 @@ import java.util.ArrayList;
  */
 
 public class Banda {
-
+    
+    private String nombreBanda;
     private ArrayList<Artista> integrantesBanda;
 
     /**
@@ -15,7 +16,8 @@ public class Banda {
      *
      * @param integrantesBanda Contains the members of the band
      */
-    public Banda(ArrayList<Artista> integrantesBanda){
+    public Banda(ArrayList<Artista> integrantesBanda, String nombreBanda){
+        this.nombreBanda = nombreBanda;
         this.integrantesBanda = integrantesBanda;
     }
 
