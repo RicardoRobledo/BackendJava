@@ -1,3 +1,5 @@
+import java.awt.*;
+
 /**
  * This class describe the printer that will draw the announcement
  *
@@ -6,7 +8,12 @@
 
 public class Impresora extends Thread implements controladorImpresora{
 
+    private Screen screen;
     private Panfleto panfleto;
+
+    public Impresora(Screen screen){
+        this.screen = screen;
+    }
 
     public Panfleto getPanfleto() {
         return panfleto;
@@ -17,7 +24,7 @@ public class Impresora extends Thread implements controladorImpresora{
     }
 
     /**
-     * This methow will draw our announcement
+     * This method will draw our announcement
      *
      * @author: Ricardo
      */
@@ -28,6 +35,6 @@ public class Impresora extends Thread implements controladorImpresora{
 
     @Override
     public void run(){
-        
+
     }
 }
