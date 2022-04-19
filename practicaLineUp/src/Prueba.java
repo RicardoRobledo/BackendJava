@@ -112,7 +112,7 @@ public class Prueba {
 
         impresora.setOrden(opcion);
         executorService.execute(impresora);
-        sleep(1000);
+        sleep(2000);
 
     }
 
