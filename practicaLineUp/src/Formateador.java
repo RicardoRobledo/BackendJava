@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * This interface describe what Layout class must do
  *
@@ -5,4 +7,7 @@
  * */
 
 public interface Formateador {
+
+    public String darFormato(ArrayList<Banda> bandas);
+
 }

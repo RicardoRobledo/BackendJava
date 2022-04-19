@@ -4,7 +4,7 @@
  * @author: Ricardo
  * */
 
-public class Impresora extends Thread implements controladorImpresora{
+public class Impresora extends Thread implements ControladorImpresora {
 
     private Screen screen;
     private Panfleto panfleto;

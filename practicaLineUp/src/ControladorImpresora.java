@@ -4,7 +4,7 @@
  * @author: Ricardo
  * */
 
-public interface controladorImpresora {
+public interface ControladorImpresora {
 
     public void dibujar();
 
