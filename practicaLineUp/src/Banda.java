@@ -12,9 +12,18 @@ public class Banda {
 
     /**
      * This constructor give us the members of the band
+     *
+     * @param integrantesBanda Contains the members of the band
      */
     public Banda(ArrayList<Artista> integrantesBanda){
         this.integrantesBanda = integrantesBanda;
     }
 
+    public ArrayList<Artista> getIntegrantesBanda() {
+        return integrantesBanda;
+    }
+
+    public void setIntegrantesBanda(ArrayList<Artista> integrantesBanda) {
+        this.integrantesBanda = integrantesBanda;
+    }
 }
