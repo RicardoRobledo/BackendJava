@@ -19,4 +19,11 @@ public class Artista extends Persona{
         this.rol = rol;
     }
 
+    public String getRol() {
+        return rol;
+    }
+
+    public void setRol(String rol) {
+        this.rol = rol;
+    }
 }
