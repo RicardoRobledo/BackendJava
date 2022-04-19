@@ -4,8 +4,10 @@
  * @author: Ricardo
  * */
 
-public class Impresora {
+public class Impresora implements controladorImpresora{
+    
+    @Override
+    public void dibujar() {
 
-
-
+    }
 }
