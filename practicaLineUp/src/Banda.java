@@ -30,6 +30,14 @@ public class Banda {
         this.integrantesBanda = integrantesBanda;
     }
 
+    public String getNombreBanda() {
+        return nombreBanda;
+    }
+
+    public void setNombreBanda(String nombreBanda) {
+        this.nombreBanda = nombreBanda;
+    }
+
     @Override
     public String toString() {
         return "Banda{" +

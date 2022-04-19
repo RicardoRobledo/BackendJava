@@ -36,16 +36,16 @@ public class Prueba {
         Artista angel = new Artista("Angel", "Bajo");
         Artista alberto = new Artista("Alberto", "Baterista");
 
-        integrantesBanda.clear();
-        integrantesBanda.add(leon);
-        integrantesBanda.add(siddhartha);
-        integrantesBanda.add(sergioA);
-        integrantesBanda.add(rodrigo);
-        integrantesBanda.add(jesus);
-        integrantesBanda.add(angel);
-        integrantesBanda.add(alberto);
+        ArrayList<Artista> integrantesBanda2 = new ArrayList<Artista>();
+        integrantesBanda2.add(leon);
+        integrantesBanda2.add(siddhartha);
+        integrantesBanda2.add(sergioA);
+        integrantesBanda2.add(rodrigo);
+        integrantesBanda2.add(jesus);
+        integrantesBanda2.add(angel);
+        integrantesBanda2.add(alberto);
 
-        Banda banda2 = new Banda(integrantesBanda, "Zoe");
+        Banda banda2 = new Banda(integrantesBanda2, "Zoe");
 
         // -----------------Caifanes-----------------
 
@@ -58,17 +58,17 @@ public class Prueba {
         Artista juanC = new Artista("Juan", "Baterista");
         Artista santiago = new Artista("Santiago", "Guitarra");
 
-        integrantesBanda.clear();
-        integrantesBanda.add(saul);
-        integrantesBanda.add(alejandro);
-        integrantesBanda.add(sabo);
-        integrantesBanda.add(alfonso);
-        integrantesBanda.add(diego);
-        integrantesBanda.add(yann);
-        integrantesBanda.add(juanC);
-        integrantesBanda.add(santiago);
+        ArrayList<Artista> integrantesBanda3 = new ArrayList<Artista>();
+        integrantesBanda3.add(saul);
+        integrantesBanda3.add(alejandro);
+        integrantesBanda3.add(sabo);
+        integrantesBanda3.add(alfonso);
+        integrantesBanda3.add(diego);
+        integrantesBanda3.add(yann);
+        integrantesBanda3.add(juanC);
+        integrantesBanda3.add(santiago);
 
-        Banda banda3 = new Banda(integrantesBanda, "Caifanes");
+        Banda banda3 = new Banda(integrantesBanda3, "Caifanes");
 
         // --------------------Layout---------------------
 
