@@ -73,10 +73,12 @@ public class Prueba {
         // --------------------Layout---------------------
 
         Layout layout = new Layout();
-        layout.darFormato(banda);
-        layout.darFormato(banda2);
-        layout.darFormato(banda3);
 
+        System.out.println(layout.darFormato(banda));
+        System.out.println(layout.darFormato(banda2));
+        System.out.println(layout.darFormato(banda3));
+
+        // --------------------Impresora---------------------
 
 
     }

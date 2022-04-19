@@ -19,10 +19,10 @@ public class Layout implements Formateador{
         String formatoSalida = "";
         ArrayList<Artista> integrantes = banda.getIntegrantesBanda();
 
-        formatoSalida+=banda.;
+        formatoSalida+="Banda: "+banda.getNombreBanda()+"\n";
 
         for (Artista artista: integrantes) {
-            formatoSalida+=artista.getNombre()+"\n"+artista.getRol()+"\n";
+            formatoSalida+=artista.getNombre()+" -> Rol: "+artista.getRol()+"\n";
         }
 
         return formatoSalida;
